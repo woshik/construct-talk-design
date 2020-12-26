@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="favicon.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/custom.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container register-container">
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <h3 class="register-header">Welcome To Construct Talk</h3>
+          <div class="reg-from-wrapper">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control custom-form-control"
+                  placeholder="Username"
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <input
+                  type="password"
+                  class="form-control custom-form-control"
+                  placeholder="Password"
+                />
+              </div>
+
+              <div class="d-flex flex-row mt-3 form-half">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control custom-form-control-short"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group" style="margin-left: 1%">
+                  <input
+                    type="text"
+                    class="form-control custom-form-control-short"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control custom-form-control"
+                  placeholder="Company Name (Optional)"
+                />
+              </div>
+
+              <div class="d-flex flex-row align-items-center mt-3">
+                <div class="post-text">Date Of Birth</div>
+                <div class="date-align">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control custom-form-control-date"
+                      placeholder="DD"
+                      size="5"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control custom-form-control-date"
+                      placeholder="MM"
+                      size="5"
+                    />
+                  </div>
+
+                  <div class="form-group last">
+                    <input
+                      type="text"
+                      class="form-control custom-form-control-year"
+                      placeholder="YYYY"
+                      size="10"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="dropdown mt-3">
+                <button
+                  class="btn register-dropdown dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Country
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <!-- State -->
+              <div class="dropdown mt-3">
+                <button
+                  class="btn register-dropdown dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  State
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <!-- State -->
+
+              <!-- City -->
+              <div class="dropdown mt-3">
+                <button
+                  class="btn register-dropdown dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton3"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  City
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <!-- City -->
+
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control custom-form-control"
+                  placeholder="What's your speciality"
+                />
+              </div>
+
+              <div class="submit-reg text-center">
+                <button class="btn btn-register mt-5">Register</button>
+              </div>
+
+              <div class="text-center">
+                <div class="col-12 ">
+                  <p class="existing-link">I already have an account</p>
+                </div>
+                <div class="col-12 mt-2">
+                  <a href="./login.html" class="register-link">Login</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-md-12 col-sm-12 col-12 login-section"
+          style="text-align: right"
+        >
+          <button class="btn btn-success btn-login">Login</button>
+          <div>
+            <img src="img/bg.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
